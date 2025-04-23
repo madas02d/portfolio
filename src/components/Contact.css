@@ -1,0 +1,102 @@
+/* Contact Section */
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+  padding: 4vh 0;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+  margin: 2rem auto;
+  padding: 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0.5rem;
+  min-width: 250px;
+  flex: 1;
+}
+
+.contact-info-container p {
+  font-size: 1rem;
+}
+
+.contact-info-container a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.contact-info-container a:hover {
+  color: rgb(53, 53, 53);
+}
+
+.contact-icon {
+  cursor: default;
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+}
+
+.email-icon {
+  height: 2.5rem;
+  object-fit: cover;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+  #contact {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-info-upper-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .contact-info-container {
+    width: 100%;
+    margin: 0.5rem 0;
+    justify-content: flex-start;
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #contact {
+    margin: 0 1rem;
+  }
+
+  .contact-info-container p {
+    font-size: 0.9rem;
+  }
+
+  .contact-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .email-icon {
+    height: 2rem;
+  }
+} 
