@@ -17,7 +17,7 @@ const Profile: React.FC = () => {
         <div className="btn-container">
           <button
             className="btn btn-color-2"
-            onClick={() => window.open('/assets/My CV.pdf')}
+            onClick={() => window.open('/assets/CV.pdf')}
           >
             Download CV
           </button>
