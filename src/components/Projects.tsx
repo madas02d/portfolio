@@ -8,6 +8,30 @@ const Projects: React.FC = () => {
       <h1 className="title">Projects</h1>
       <div className="experience-details-container">
         <div className="about-containers">
+        <div className="details-container color-container">
+            <div className="article-container">
+              <img
+                src="/assets/tiny-tales.png"
+                alt="music player"
+                className="project-img"
+              />
+            </div>
+            <h2 className="experience-sub-title project-title">Tiny Tales</h2>
+            <div className="btn-container">
+              <button
+                className="btn btn-color-2 project-btn"
+                onClick={() => window.open('https://github.com/madas02d/storybook')}
+              >
+                Github
+              </button>
+              <button
+                className="btn btn-color-2 project-btn"
+                onClick={() => window.open('https://storybook-qrb7.onrender.com/')}
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
           <div className="details-container color-container">
             <div className="article-container">
               <img
@@ -32,30 +56,7 @@ const Projects: React.FC = () => {
               </button>
             </div>
           </div>
-          <div className="details-container color-container">
-            <div className="article-container">
-              <img
-                src="/assets/project-02.png"
-                alt="music player"
-                className="project-img"
-              />
-            </div>
-            <h2 className="experience-sub-title project-title">Music Player</h2>
-            <div className="btn-container">
-              <button
-                className="btn btn-color-2 project-btn"
-                onClick={() => window.open('https://github.com/madas02d/musics_player')}
-              >
-                Github
-              </button>
-              <button
-                className="btn btn-color-2 project-btn"
-                onClick={() => window.open('https://musics-player-xi.vercel.app/')}
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
+          
           <div className="details-container color-container">
             <div className="article-container">
               <img
