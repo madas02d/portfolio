@@ -36,13 +36,13 @@ const About: React.FC = () => {
             </div>
           </div>
           <div className="text-container">
-            <p>
+            <em>
               Based in Winsen (Luhe), Germany, I am a passionate Full-Stack Developer with experience in both frontend and backend development. 
               I completed my Bachelor's in Computer Science from ULK (Kigali Independent University) and am currently enhancing my skills through 
               Digital Career Institute's Web Development program. I have hands-on experience with version control (Git/GitHub), full-stack development 
               workflow, and testing/debugging practices. My technical expertise includes HTML5, CSS3, JavaScript, React.js, Node.js, Express.js, and 
               various databases including MongoDB and MySQL.
-            </p>
+            </em>
           </div>
         </div>
       </div>

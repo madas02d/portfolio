@@ -52,7 +52,7 @@ const Experience: React.FC = () => {
                 />
                 <div>
                   <h3>JavaScript</h3>
-                  <p>Intermediate</p>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -63,7 +63,7 @@ const Experience: React.FC = () => {
                 />
                 <div>
                   <h3>React.js</h3>
-                  <p>Intermediate</p>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -75,6 +75,50 @@ const Experience: React.FC = () => {
                 <div>
                   <h3>TypeScript</h3>
                   <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="Checkmark"
+                  className="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="Checkmark"
+                  className="icon"
+                />
+                <div>
+                  <h3>C</h3>
+                  <p>Experiaced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="Checkmark"
+                  className="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="Checkmark"
+                  className="icon"
+                />
+                <div>
+                  <h3>PHP</h3>
+                  <p>Experienced</p>
                 </div>
               </article>
             </div>
@@ -90,7 +134,7 @@ const Experience: React.FC = () => {
                 />
                 <div>
                   <h3>Node.js</h3>
-                  <p>Intermediate</p>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -101,7 +145,7 @@ const Experience: React.FC = () => {
                 />
                 <div>
                   <h3>Express.js</h3>
-                  <p>Intermediate</p>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -112,7 +156,7 @@ const Experience: React.FC = () => {
                 />
                 <div>
                   <h3>MongoDB</h3>
-                  <p>Intermediate</p>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -123,7 +167,7 @@ const Experience: React.FC = () => {
                 />
                 <div>
                   <h3>MySQL</h3>
-                  <p>Basic</p>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -134,7 +178,29 @@ const Experience: React.FC = () => {
                 />
                 <div>
                   <h3>Git</h3>
-                  <p>Intermediate</p>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="Checkmark"
+                  className="icon"
+                />
+                <div>
+                  <h3>phpMyAdmin</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/assets/checkmark.png"
+                  alt="Checkmark"
+                  className="icon"
+                />
+                <div>
+                  <h3>XAMPP</h3>
+                  <p>Experienced</p>
                 </div>
               </article>
             </div>

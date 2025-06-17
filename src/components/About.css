@@ -73,7 +73,7 @@
   #about {
     margin: 0 2rem;
     height: auto;
-    margin-top: 15rem;
+    margin-top: 17rem;
   }
 
   .about-containers {
@@ -90,7 +90,7 @@
     /* width: 100%; */
     max-width: 400px;
     height: auto;
-    margin: 0 auto;
+    margin: 0;
   }
   .about-details-container {
     flex-direction: column;
@@ -106,6 +106,12 @@
 @media screen and (max-width: 768px) {
   .about-containers {
     margin: 1rem 0;
+  }
+
+  .about-pic {
+    width: 300px;
+    height: 300px;
+    margin-top: 2rem;
   }
 
   .details-container {
@@ -126,9 +132,9 @@
   #about {
     margin: 0 1rem;
   }
-
   .section__pic-container {
     max-width: 250px;
+    margin: 0 auto;
   }
 
   .details-container h3 {
