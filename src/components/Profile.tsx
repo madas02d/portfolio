@@ -21,6 +21,12 @@ const Profile: React.FC = () => {
           >
             Download CV
           </button>
+          <button
+            className="btn btn-color-2"
+            onClick={() => window.open('/assets/Lebenslauf.pdf')}
+          >
+            Download Germany CV
+          </button>
           <button className="btn btn-color-1" onClick={() => window.location.href = '#contact'}>
             Contact Info
           </button>
