@@ -10,9 +10,11 @@ const Profile: React.FC = () => {
       <div className="section__text">
         <p className="section__text__p1">Hello, I'm</p>
         <h3 className="title">Jean Damascene Mbiturimana</h3>
-        <p className="section__text__p2">Frontend- und Backend-Entwickler | Informatik-Professional</p>
+        <p className="section__text__p2">Frontend and Backend Developer | Computer Science Professional | IT Support Specialist</p>
         <div className="section__text__description">
-          <p>Skilled in designing and developing responsive web applications using frontend technologies (HTML, CSS, JavaScript, React) and backend frameworks (Node.js, Express, NoSQL).</p>
+          <p>Experienced developer with a background in Computer Science and IT Support. Skilled in designing and developing responsive web applications using modern frontend technologies (HTML, CSS, JavaScript, React) and backend frameworks (Node.js, Express, NoSQL).
+
+In addition, I have hands-on experience in IT support, including troubleshooting, system maintenance, and user assistance across both hardware and software. My academic background in computer science, combined with practical experience in the IT industry, provides me with a solid understanding of IT infrastructures and modern software solutions.</p>
         </div>
         <div className="btn-container">
           <button

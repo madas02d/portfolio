@@ -64,7 +64,7 @@
 
 .text-container {
   margin: 2rem 0;
-  text-align:center;
+  text-align:justify;
   font-size: 1.2rem;
 }
 
@@ -73,7 +73,7 @@
   #about {
     margin: 0 2rem;
     height: auto;
-    margin-top: 20rem;
+    margin-top: 25rem;
   }
 
   .about-containers {
@@ -125,6 +125,9 @@
 
   .text-container {
     margin: 1rem 0;
+  }
+  .text-container em {
+    text-align: justify;
   }
 }
 
