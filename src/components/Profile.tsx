@@ -19,13 +19,13 @@ In addition, I have hands-on experience in IT support, including troubleshooting
         <div className="btn-container">
           <button
             className="btn btn-color-2"
-            onClick={() => window.open('/assets/Damascene-CV.pdf')}
+            onClick={() => window.open('/assets/CV.pdf')}
           >
             Download CV
           </button>
           <button
             className="btn btn-color-2"
-            onClick={() => window.open('/assets/Damascene-Lebenslauf.pdf')}
+            onClick={() => window.open('/assets/Lebenslauf.pdf')}
           >
             Download Germany CV
           </button>
