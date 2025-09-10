@@ -35,7 +35,7 @@ const Projects: React.FC = () => {
           <div className="details-container color-container">
             <div className="article-container">
               <img
-                src="/assets/project-01.png"
+                src="/assets/E-commerce.png"
                 alt="Blogs"
                 className="project-img"
               />
