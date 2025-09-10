@@ -50,7 +50,7 @@ const Projects: React.FC = () => {
               </button>
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => window.open('https://e-commerce-three-gold-65.vercel.app/')}
+                onClick={() => window.open('https://e-commerce-three-gold-65.vercel.app')}
               >
                 Live Demo
               </button>
