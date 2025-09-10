@@ -40,6 +40,30 @@ const Projects: React.FC = () => {
                 className="project-img"
               />
             </div>
+            <h2 className="experience-sub-title project-title">E-commerce</h2>
+            <div className="btn-container">
+              <button
+                className="btn btn-color-2 project-btn"
+                onClick={() => window.open('https://github.com/madas02d/E-commerce')}
+              >
+                Github
+              </button>
+              <button
+                className="btn btn-color-2 project-btn"
+                onClick={() => window.open('https://e-commerce-three-gold-65.vercel.app/')}
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div className="details-container color-container">
+            <div className="article-container">
+              <img
+                src="/assets/project-01.png"
+                alt="Blogs"
+                className="project-img"
+              />
+            </div>
             <h2 className="experience-sub-title project-title">Blogs</h2>
             <div className="btn-container">
               <button
